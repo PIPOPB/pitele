@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BW - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        #hero {
+            background: url('hero.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        #hero p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+        }
+        #courses {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+        #courses h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .course-card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: inline-block;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .course-card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 15px;
+        }
+        .course-card h3 {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+        .course-card p {
+            font-size: 1em;
+            color: #666;
+        }
+        .course-card .btn {
+            display: block;
+            padding: 10px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to BW</h1>
+            <p>Your ultimate destination for online education</p>
+        </section>
+        <section id="courses">
+            <h2>Featured Courses</h2>
+            <div class="course-card">
+                <img src="course-image.jpg" alt="Course Image">
+                <h3>Course Title</h3>
+                <p>Course description goes here. Learn the basics and advanced topics with our detailed course.</p>
+                <a href="#" class="btn">Enroll Now</a>
+            </div>
+            <div class="course-card">
+                <img src="course-image.jpg" alt="Course Image">
+                <h3>Course Title</h3>
+                <p>Course description goes here. Learn the basics and advanced topics with our detailed course.</p>
+                <a href="#" class="btn">Enroll Now</a>
+            </div>
+            <div class="course-card">
+                <img src="course-image.jpg" alt="Course Image">
+                <h3>Course Title</h3>
+                <p>Course description goes here. Learn the basics and advanced topics with our detailed course.</p>
+                <a href="#" class="btn">Enroll Now</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BW. All rights reserved.</p>
+    </footer>
+</body>
+</html>
